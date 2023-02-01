@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color: green;
+    font-family: sans-serif;
+}
+
+h1{
+
+}
+
+p{
+    margin-top: 80px;
+    border: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+}

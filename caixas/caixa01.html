@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0;
+        }
+
+        header{
+           background-color: aliceblue;
+           padding: 10px;
+           margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(100, 100, 100);
+            padding: 3px;
+            
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: aliceblue;
+           padding: 10px;
+           margin: 10px;
+        }
+
+        article{
+            background-color: lightgrey;
+            padding: 1px;
+        }
+
+        article > aside{
+            background-color: rgb(141, 141, 141);
+            padding: 1px;
+        }
+
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 2px;
+            margin: 0;
+        }
+
+        footer > p{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+   <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+   </header>
+   <main>
+        <section id="assuntos">
+            <article>
+                <h2>Assunto</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sunt odit, debitis minus magni voluptatibus inventore eaque illo amet. Corporis minus enim ullam nemo soluta nesciunt nisi ipsa voluptatum asperiores?</p>
+                <aside>
+                    <p>Artigo escrito por Daniel</p>
+                </aside>
+            </article>
+            <article>
+                
+            </article>
+        </section>
+        <section id="noticias">
+
+        </section>
+   </main>
+   <footer>
+        <p>Desenvolvido por DGR</p>
+   </footer>
+</body>
+</html>
